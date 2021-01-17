@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta class="predictor" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Risk Calculator</title>
+</head>
+<body >
+    <h1 style="font-size: 38px;" >Risk Calculator</h1>
+    <div id=q-body>
+        
+    </div>
+    <a href="#" id="prevresultbutton" class="button" style="height: 150%; margin-top: 0;" onclick="prevsession(prevarray)">See previous session results.</a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://api.covid19india.org/v4/data.json" type="javascript/text"></script>
+    <script src="js/ajaxUtils.js"></script>
+    <script src="js/stateStats.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

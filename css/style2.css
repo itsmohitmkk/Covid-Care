@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to left,pink,lightblue,rgb(0, 81, 128)); */
+    background: url("corona.png") rgb(0, 0, 0,0.4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    /* background-position: center; */
+}
+.box{
+   width:50%;
+    height: 300px;
+    margin-top: 50px;
+    padding: 20px 25px 40px 10px;
+    background: linear-gradient(to top, #2b2d2e, #555555);
+    
+    border:4px solid #B0E0E6;
+    border-radius:15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgb(29, 28, 28);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+
+}
+.box input{
+    width: 300px; height: 50px; border-radius: 14px;background-color: rgb(240, 237, 212); border:4px solid rgb(0, 0, 0);padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button {
+    border:4px solid;
+    border-radius:5px;
+    width: 40px;
+    /* padding: 10px 10px 10px 10px; */
+    position: relative;
+    float:right;
+    background-color: #17c3cf;
+    color: rgb(0, 0, 0);
+    margin: 60px 10px 10px 2px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    box-shadow: 10px  10px rgba(0,0,0,0.5);
+    
+    
+}
+.button:active {
+    background-color: #223741;
+    color: #ffffff;
+    box-shadow: none;
+}
+.button:hover{
+    background-color: rgb(22, 67, 189);
+    color: #ffffff;
+}
+
+
+ a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* width: 100px; */
+      
+}
+.labs{
+    display:none;
+}
+#heading{
+    font-size: 40px;color: rgb(0, 0, 0);font-weight: bold; margin-top: 15px; border: 2px solid black;border-radius: 13px;background: white;padding: 12px;
+}
+#butt2{
+    padding: 10px;
+    
+}

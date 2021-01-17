@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="stats.css"> -->
+    <style>
+        main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        body{
+            background-color:rgba(17,24,39);
+        }
+    </style>
+    <title>Statistics</title>
+</head>
+
+<body>
+    <div class="main">
+        <section class="text-gray-500 bg-gray-900 body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap">
+                <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                    <div class="w-full sm:p-4 px-4 mb-6">
+                        <h1 class="title-font font-medium text-xl mb-2 text-white" style="font-size: 34px;" id="state"> State Name
+                        </h1>
+                        <!-- <div class="leading-relaxed"> get current statistics of state
+                           .</div> -->
+                    </div>
+                    <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                        <h2 class="title-font font-medium text-3xl text-white" id="total-conf"></h2>
+                        <p class="leading-relaxed">Total Confirmed Cases</p>
+                    </div>
+                    <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                        <h2 class="title-font font-medium text-3xl text-white" id="active-case"></h2>
+                        <p class="leading-relaxed">Total Active Cases</p>
+                    </div>
+                    <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                        <h2 class="title-font font-medium text-3xl text-white" id="rec-case"></h2>
+                        <p class="leading-relaxed">Total Recovered</p>
+                    </div>
+
+                    <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                        <h2 class="title-font font-medium text-3xl text-white" id="deaths"></h2>
+                        <p class="leading-relaxed">Total Deaths</p>
+                    </div>
+                    
+                    
+                </div>
+                <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                    <img class="object-cover object-center w-full h-full" src="css/stats.png"
+                        alt="stats">
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    
+<script src="js/stats.js"></script>
+
+</body>
+
+</html>
